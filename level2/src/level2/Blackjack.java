@@ -11,7 +11,7 @@ public class Blackjack
 	}
 	
 	//checks if number                                                 
-	private int blackJack(int number1,int number2)
+	protected  int blackJack(int number1,int number2)
 	{
 		int i = 0;
 		if (21- number1 <  21 - number2)

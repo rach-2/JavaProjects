@@ -1,0 +1,22 @@
+package level2;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BlackjackTest 
+{
+	Blackjack blackJack = new Blackjack();
+
+	@Test
+	public  int blackJackTest()
+	{
+	     blackJack.blackJack(6,7);
+	     
+		
+	     
+	}
+	
+	
+
+}

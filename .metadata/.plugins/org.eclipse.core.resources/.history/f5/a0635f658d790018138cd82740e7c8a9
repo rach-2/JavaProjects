@@ -1,0 +1,38 @@
+package level2;
+import junit.*;
+
+import  org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BlackjackTest 
+{
+	Blackjack blackJack = new Blackjack();
+
+//	@Test
+//	public  int blackJackTest()
+//	{
+//	    
+//	     
+//	      assertEquels(7, blackJack.blackJack(6, 7));
+//	     
+//		
+//	     
+//	}
+	
+	@Test
+	public  void blackJackTest()
+	{
+	    
+	     
+	      assertEquels(7, blackJack.blackJack(6, 7));
+	     
+		
+	     
+	}
+	
+
+	
+	
+
+}

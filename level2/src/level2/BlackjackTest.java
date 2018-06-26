@@ -1,0 +1,25 @@
+package level2;
+import junit.*;
+
+import org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class BlackjackTest 
+{
+	Blackjack blackJack = new Blackjack();
+    public  void blackJackTest()
+	{
+	      BlackjackTest blackJackTest =  new BlackjackTest();
+	     
+	      assertEquals("result:",7, blackJack.blackJack(6, 7));
+	     
+	}
+	
+	
+	
+
+	
+	
+
+}
