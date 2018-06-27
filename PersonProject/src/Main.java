@@ -43,6 +43,7 @@ public class Main
 	
 	{
 		String string = "";
+		//Iterates though the personarray list
 		for(Person p : personArrayList)
 		{
 			

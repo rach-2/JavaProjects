@@ -1,13 +1,18 @@
 import java.util.ArrayList;
 public class Garage 
 {
-	public static void main(String args[])
+	
+	ArrayList<Vehclie> vechileList = new ArrayList<Vehclie>();
+
+	
+	
+	public boolean addVechile(Vehclie vechile)
 	{
-		ArrayList<Object> garage = new ArrayList<Object>();
+		return vechileList.add(vechile);
+		
 	}
 	
 	
 	
-	public void
 
 }
