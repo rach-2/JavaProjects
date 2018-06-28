@@ -20,6 +20,12 @@ public class Car  extends  Vehclie
 		return this.make;
 		
 	}
+
+	@Override
+	public String start() {
+		// TODO Auto-generated method stub
+		return null;
+	}
     
     
 
