@@ -2,14 +2,74 @@ import java.util.ArrayList;
 public class Garage 
 {
 	
-	ArrayList<Vehclie> vechileList = new ArrayList<Vehclie>();
+	//createing 
+	private ArrayList<Vehclie> vechileList = new ArrayList<Vehclie>();
 
 	
-	public ArrayList<Vehclie> iterateVechiles()
+	
+	public int  iterateVechiles()
 	{
-		return vechileList;
+		int bill = 0;
+
+		for (Vehclie v : vechileList)
+		{
+			
+		      if (v.getClass().getName() == "Car")
+		      {
+		    	  
+		    	  Car tempCar = (Car) v;
+		    	 if (tempCar.getMake()=="Ford")
+		    	 {
+		    		 bill =  bill + 100;
+		    	 }
+		    	 else if(tempCar.getMake() == "Mini")
+		    	 {
+		    		 bill = bill + 200;
+		    	 }
+		    	 
+
+		    			
+		      }
+		    	 
+		      else if (v.getClass().getName() == "Plane")
+		      {
+		           Plane tempPlane = (Plane) v;
+		           
+		           if (tempPlane.getWingCapicity() == 100)
+		           {
+		        	   bill  = bill + 100;
+		           }
+		           else if(tempPlane.getWingCapicity() == 200)
+		           {
+		        	   bill = bill + 150;
+		           }
+		    	  
+		      }
+		      else if(v.getClass().getName()=="MoterBike")
+		      {
+		    	  //this is casting th
+		    	  MoterBike tempMoterBike = (MoterBike) v;
+		          if(tempMoterBike.getNumberOfCruthes() == 5)
+		          {
+		    	  bill = bill + 50;
+		          }
+		          else if(tempMoterBike.getNumberOfCruthes() == 2)
+		          {
+		        	  bill = bill + 25;
+		          }
+		          
+		    	 
+		      }
+		    
+		       
+		      
+		}
+		
+			
+		return bill;
+		
 	}
-	boolean addVechile(Vehclie vechile)
+	public boolean addVechile(Vehclie vechile)
 	{
 		return vechileList.add(vechile);
 	

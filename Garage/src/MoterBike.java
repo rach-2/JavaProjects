@@ -13,6 +13,12 @@ public class MoterBike  extends Vehclie
     {
     	return this.numberOfCruthes;
     }
+
+	@Override
+	public String start() {
+		// TODO Auto-generated method stub
+		return null;
+	}
     
     
     
