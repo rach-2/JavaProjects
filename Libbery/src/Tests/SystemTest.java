@@ -2,6 +2,7 @@ package Tests;
 import static org.junit.Assert.*;
 
 import org.junit.Before;
+import org.junit.Ignore;
 
 import liberry.*;
 import org.junit.Test;
@@ -11,19 +12,21 @@ import liberry.System;
 public class SystemTest 
 {
 
+	System system = null;
 	@Before
 	public void createNewSystem()
 	{
 		system = new System();
 	}
-	System system = null;
+	
 	@Test
 	public void testAddMember()
 	{
 		
 		Member member = new Member(1,"Member");
+		Member member2 = new Member(2, "Member2");
 		system.addMember(member);
-		assertEquals(system.getMemberList().size(), 1);
+		assertEquals(1,system.getMemberList().size());
 	}
 	
 	@Test
@@ -37,7 +40,7 @@ public class SystemTest
 		 system.addMember(memberOne);
 		 system.addMember(memberTwo);
 		 system.removeMember(memberTwo);
-		 assertEquals(system.getMemberList().size(),2);
+		 assertEquals(2,system.getMemberList().size());
 	}
 	@Test
 	public void testClearMember()
@@ -49,21 +52,30 @@ public class SystemTest
 		 system.addMember(memberThee);
 		 system.addMember(memberOne);
 		 system.addMember(memberTwo);
-		  system.clearMember();
-		  assertEquals(true,system.getMemberList().isEmpty());
+		 system.clearMember();
+		 assertEquals(true,system.getMemberList().isEmpty());
 	}
 	
 	@Test
 	public void  testAddItem()
 	{
-		 System system = new System();
+		
 		 Book book = new Book(1,"petter rabit", "Jame");
-		 NewsPaper NewsPaper = new Newspaper(1,"Mancetsrer news", 1067 );
-		 system.addItem(book,list
-		 system.add
-		 
-		 
-		 
+		 NewsPaper newsPaper = new NewsPaper(1,"Mancetsrer news", 1067 );
+		 system.addItem(book);
+		 system.addItem(newsPaper);
+		 assertEquals(2, system.getItemList().size());
+	}
+	@Test
+	public void testRemoveItem()
+	{
+		 Book book = new Book(1,"petter rabit", "Jame");
+		 NewsPaper newsPaper = new NewsPaper(1,"Mancetsrer news", 1067 );
+		 system.addItem(book);
+		 system.addItem(newsPaper);
+		 system.removeItem(book);
+		 assertEquals(1, system.getItemList().size());
+		 																							
 	}
 	
 }

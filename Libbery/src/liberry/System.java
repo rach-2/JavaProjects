@@ -4,17 +4,19 @@ public class System
 {
 	
 	private ArrayList<Member> memberList = new ArrayList<Member>();
+	private ArrayList<Item> itemList = new ArrayList<Item>();
+	
 
-	public boolean addMember(Member m) 
+	public boolean addMember(Member member) 
 	{
-	      return memberList.add(m);
+	      return memberList.add(member);
 	}
 	
-	public boolean removeMember(Member m)
+	public boolean removeMember(Member member)
 	{
-		return memberList.remove(m);
+		return memberList.remove(member);
 	}
-	
+    
 	public ArrayList<Member> getMemberList()
 	{
 		return memberList;
@@ -25,4 +27,19 @@ public class System
 		 memberList.clear();
 	}
 	
+	public boolean addItem(Item item)
+	{
+		return itemList.add(item);
+	}
+	
+	public  boolean removeItem(Item item)
+	{
+		return itemList.remove(item);
+	}
+	
+	public ArrayList<Item> getItemList()
+	{
+		return itemList;
+	}
+
 }

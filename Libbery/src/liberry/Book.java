@@ -6,15 +6,28 @@ public class Book  implements  Item
 	private String title;
 	private String author;
 	
-	public Book(int bookId, String title, String auhtor)
+	public Book(int bookId, String title, String author)
 	{
-		
+		this.bookId = bookId;
+		this.title = title;
+		this.author = author;
 	}
+	
 	@Override 
 	public int getItemId() 
 	{
-		// TODO Auto-generated method stub
 		return bookId;
 	}
+
+	public String getTitle() 
+	{
+		return title;
+	}
+	
+	public String getAuthor() 
+	{
+		return author;
+	}
+	
       
 }
