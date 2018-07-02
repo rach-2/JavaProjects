@@ -5,9 +5,7 @@ public class Garage
 	//createing 
 	private ArrayList<Vehclie> vechileList = new ArrayList<Vehclie>();
 
-	
-	
-	public int  iterateVechiles()
+	 public int  iterateVechiles()
 	{
 		int bill = 0;
 
@@ -27,8 +25,6 @@ public class Garage
 		    		 bill = bill + 200;
 		    	 }
 		    	 
-
-		    			
 		      }
 		    	 
 		      else if (v.getClass().getName() == "Plane")
@@ -47,7 +43,7 @@ public class Garage
 		      }
 		      else if(v.getClass().getName()=="MoterBike")
 		      {
-		    	  //this is casting th
+		    	  //this is casting  the code
 		    	  MoterBike tempMoterBike = (MoterBike) v;
 		          if(tempMoterBike.getNumberOfCruthes() == 5)
 		          {
@@ -58,11 +54,8 @@ public class Garage
 		        	  bill = bill + 25;
 		          }
 		          
-		    	 
-		      }
+		  }
 		    
-		       
-		      
 		}
 		
 			
@@ -72,7 +65,6 @@ public class Garage
 	public boolean addVechile(Vehclie vechile)
 	{
 		return vechileList.add(vechile);
-	
 		
 	}
 	

@@ -1,12 +1,11 @@
 
-public class MoterBike  extends Vehclie 
+public class MoterBike extends Vehclie 
 {
 	int numberOfCruthes;
+	
     public MoterBike(int numberOfCruthes)
     {
-    	 
-    	this.numberOfCruthes = numberOfCruthes;
-    
+    	 this.numberOfCruthes = numberOfCruthes;
     }
     
     public int  getNumberOfCruthes()
@@ -15,9 +14,9 @@ public class MoterBike  extends Vehclie
     }
 
 	@Override
-	public String start() {
-		// TODO Auto-generated method stub
-		return null;
+	public String start() 
+	{
+		return "The MoterBike has Started";
 	}
     
     

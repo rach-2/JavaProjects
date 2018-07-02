@@ -3,8 +3,7 @@ public class Plane extends Vehclie
 {
 	private int wingCapicity;
 	
-	
-	public Plane(int wingCapcity)
+    public Plane(int wingCapcity)
 	{
 		this.wingCapicity = wingCapcity;
 	}
@@ -15,11 +14,8 @@ public class Plane extends Vehclie
 	}
 
 	@Override
-	public String start() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-	
-	
-
+	public String start() 
+	{
+		return "The Plane has Started";
+    }
 }
