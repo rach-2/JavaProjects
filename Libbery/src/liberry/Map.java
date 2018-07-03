@@ -1,18 +1,21 @@
 package liberry;
 
-public class Map implements Item
+public class Map extends Item
 {
-	int mapId;
-	int 
+	
+	String area;
 
-	public Maps() 
+	public Map(String area)
 	{
+		super();
+	}
+	public int getItemId()
+	{
+		return  mapId();
 		
 	}
-	@Override
-	public int getItemId() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+
+	
+	
 
 }

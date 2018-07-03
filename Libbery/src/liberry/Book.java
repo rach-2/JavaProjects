@@ -1,32 +1,30 @@
 package liberry;
 
-public class Book  implements  Item
+public class Book  extends  Item
 {
-	private int bookId;
+	//private itemId; 
 	private String title;
 	private String author;
 	
-	public Book(int bookId, String title, String author)
+	public Book(String title, String author)
 	{
-		this.bookId = bookId;
+		super();
 		this.title = title;
 		this.author = author;
 	}
 	
-	@Override 
-	public int getItemId() 
-	{
-		return bookId;
-	}
-
 	public String getTitle() 
 	{
 		return title;
 	}
-	
 	public String getAuthor() 
 	{
 		return author;
+	}
+	
+	public int getItemId()
+	{
+		return bookId;
 	}
 	
       

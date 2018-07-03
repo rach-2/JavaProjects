@@ -13,69 +13,37 @@ public class SystemTest
 {
 
 	System system = null;
+	 Book book =  null;
+	 NewsPaper newsPaper =  null;
+	 Book bookTwo = null;
 	@Before
 	public void createNewSystem()
 	{
-		system = new System();
+		  system = new System();
+		  book = new Book("petter rabit", "Jame");
+		  newsPaper = new NewsPaper("Mancetsrer news", 1067);
+		  bookTwo = new Book("Cahrile in the choclate Fatcotty", "RholDare");
+		  system.addItem(book);
+		  system.addItem(newsPaper);
 	}
-	
-	@Test
-	public void testAddMember()
-	{
-		
-		Member member = new Member(1,"Member");
-		Member member2 = new Member(2, "Member2");
-		system.addMember(member);
-		assertEquals(1,system.getMemberList().size());
-	}
-	
-	@Test
-	public void testRemoveMember()
-	{
-		
-		Member memberOne = new Member(1,"Mark");
-		 Member  memberTwo =  new Member(2,"Rachel");
-		 Member  memberThee = new Member(3,"Lucy");
-		 system.addMember(memberThee);
-		 system.addMember(memberOne);
-		 system.addMember(memberTwo);
-		 system.removeMember(memberTwo);
-		 assertEquals(2,system.getMemberList().size());
-	}
-	@Test
-	public void testClearMember()
-	{
-		
-		Member memberOne = new Member(1,"Mark");
-		 Member  memberTwo =  new Member(2,"Rachel");
-		 Member  memberThee = new Member(3,"Lucy");
-		 system.addMember(memberThee);
-		 system.addMember(memberOne);
-		 system.addMember(memberTwo);
-		 system.clearMember();
-		 assertEquals(true,system.getMemberList().isEmpty());
-	}
-	
+
 	@Test
 	public void  testAddItem()
 	{
-		
-		 Book book = new Book(1,"petter rabit", "Jame");
-		 NewsPaper newsPaper = new NewsPaper(1,"Mancetsrer news", 1067 );
-		 system.addItem(book);
-		 system.addItem(newsPaper);
-		 assertEquals(2, system.getItemList().size());
+		 system.addItem(bookTwo);
+	     assertEquals(3, system.getItemList().size());
 	}
 	@Test
 	public void testRemoveItem()
 	{
-		 Book book = new Book(1,"petter rabit", "Jame");
-		 NewsPaper newsPaper = new NewsPaper(1,"Mancetsrer news", 1067 );
-		 system.addItem(book);
-		 system.addItem(newsPaper);
 		 system.removeItem(book);
 		 assertEquals(1, system.getItemList().size());
-		 																							
+		 																						}
+	@Test
+	public  void testClearItems()
+	{
+		 system.clearItem();
+		 assertEquals(true,system.getItemList().isEmpty());
 	}
 	
 }

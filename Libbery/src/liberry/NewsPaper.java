@@ -1,6 +1,6 @@
 package liberry;
 
-public class NewsPaper implements Item
+public class NewsPaper extends Item
 {
 	int newsPaperId;
 	String newsPaperTitle;
@@ -8,7 +8,7 @@ public class NewsPaper implements Item
 	
 	public NewsPaper(int newsPaperId, String newsPaperTitle, int issueNumber) 
 	{
-		this.newsPaperId = newsPaperId;
+		supper();
 		this.newsPaperTitle = newsPaperTitle;
 		this.issueNumber = issueNumber;
 	}
@@ -23,8 +23,7 @@ public class NewsPaper implements Item
 		return issueNumber;
 	}
 
-	@Override
-	public int getItemId() 
+	 public int getItemId() 
 	{
 		return newsPaperId;
 	}

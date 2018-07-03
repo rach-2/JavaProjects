@@ -6,7 +6,6 @@ public class System
 	private ArrayList<Member> memberList = new ArrayList<Member>();
 	private ArrayList<Item> itemList = new ArrayList<Item>();
 	
-
 	public boolean addMember(Member member) 
 	{
 	      return memberList.add(member);
@@ -35,6 +34,11 @@ public class System
 	public  boolean removeItem(Item item)
 	{
 		return itemList.remove(item);
+	}
+	
+	public void clearItem()
+	{
+		itemList.clear();
 	}
 	
 	public ArrayList<Item> getItemList()

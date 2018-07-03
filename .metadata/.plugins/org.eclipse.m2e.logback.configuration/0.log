@@ -830,3 +830,14 @@
 2018-07-02 19:52:42,458 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-07-02 19:52:42,458 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Invate\Desktop\gitJava\JavaProjects\tooHotMaven\src\test\resources
 2018-07-02 20:01:27,289 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.
+2018-07-03 08:53:48,262 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-03 08:54:24,317 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: c:MavanTooHot:0.0.1-SNAPSHOT @ C:\Users\Admin\Desktop\git Javaprojects\JavaProjects\MavanTooHot\pom.xml.
+2018-07-03 08:54:25,543 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 08:54:25,543 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Desktop\git Javaprojects\JavaProjects\MavanTooHot\src\main\resources
+2018-07-03 08:54:25,543 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 08:54:25,543 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Desktop\git Javaprojects\JavaProjects\MavanTooHot\src\test\resources
+2018-07-03 08:54:26,043 [Worker-9] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.qa:tooHotMaven:0.0.1-SNAPSHOT @ C:\Users\Admin\Desktop\git Javaprojects\JavaProjects\tooHotMaven\pom.xml.
+2018-07-03 08:54:26,231 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 08:54:26,231 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Desktop\git Javaprojects\JavaProjects\tooHotMaven\src\main\resources
+2018-07-03 08:54:26,231 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-03 08:54:26,231 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Admin\Desktop\git Javaprojects\JavaProjects\tooHotMaven\src\test\resources

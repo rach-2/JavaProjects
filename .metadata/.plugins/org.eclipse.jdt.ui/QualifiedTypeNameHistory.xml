@@ -13,7 +13,10 @@
 <fullyQualifiedTypeName name="tooHot.TooHot"/>
 <fullyQualifiedTypeName name="uquie.uquie"/>
 <fullyQualifiedTypeName name="uquie.Uquie"/>
-<fullyQualifiedTypeName name="liberry.System"/>
 <fullyQualifiedTypeName name="org.junit.Ignore"/>
 <fullyQualifiedTypeName name="liberry.NewsPaper"/>
+<fullyQualifiedTypeName name="liberry.System"/>
+<fullyQualifiedTypeName name="liberry.Member"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="liberry.Book"/>
 </qualifiedTypeNameHistroy>
