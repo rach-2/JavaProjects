@@ -9,11 +9,7 @@ public class Map extends Item
 	{
 		super();
 	}
-	public int getItemId()
-	{
-		return  mapId();
-		
-	}
+	
 
 	
 	

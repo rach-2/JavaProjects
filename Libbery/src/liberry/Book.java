@@ -8,6 +8,7 @@ public class Book  extends  Item
 	
 	public Book(String title, String author)
 	{
+		
 		super();
 		this.title = title;
 		this.author = author;
@@ -22,10 +23,7 @@ public class Book  extends  Item
 		return author;
 	}
 	
-	public int getItemId()
-	{
-		return bookId;
-	}
+
 	
       
 }

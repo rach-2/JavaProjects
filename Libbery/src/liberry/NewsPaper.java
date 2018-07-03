@@ -6,9 +6,9 @@ public class NewsPaper extends Item
 	String newsPaperTitle;
 	int issueNumber;
 	
-	public NewsPaper(int newsPaperId, String newsPaperTitle, int issueNumber) 
+	public NewsPaper(String newsPaperTitle, int issueNumber) 
 	{
-		supper();
+		super();
 		this.newsPaperTitle = newsPaperTitle;
 		this.issueNumber = issueNumber;
 	}
@@ -23,10 +23,7 @@ public class NewsPaper extends Item
 		return issueNumber;
 	}
 
-	 public int getItemId() 
-	{
-		return newsPaperId;
-	}
+
 	
 	
 	

@@ -14,6 +14,7 @@ public class runner
 		garage.addVechile(car2);
 		garage.addVechile(Plane);
 		
+		
 		System.out.println("the bill is " + garage.iterateVechiles());
 	}
 
