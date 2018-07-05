@@ -14,7 +14,7 @@ public class Member
     	 this.memberId = memberId;
     	 this.memberName = memberName;
     	 this.memberItems =  new ArrayList<Item>();
-  }
+     }
      
      //adding an item to the membersItems
      public boolean checkOutItem(Item item)

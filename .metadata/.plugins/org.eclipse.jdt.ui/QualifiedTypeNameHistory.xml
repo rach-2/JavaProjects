@@ -2,9 +2,7 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="junit.framework.Assert"/>
 <fullyQualifiedTypeName name="org.junit.Assert"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="org.junit.Test"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
 <fullyQualifiedTypeName name="level2.Blackjack"/>
 <fullyQualifiedTypeName name="Vehclie"/>
@@ -17,6 +15,11 @@
 <fullyQualifiedTypeName name="liberry.NewsPaper"/>
 <fullyQualifiedTypeName name="liberry.System"/>
 <fullyQualifiedTypeName name="liberry.Member"/>
-<fullyQualifiedTypeName name="org.junit.Before"/>
 <fullyQualifiedTypeName name="liberry.Book"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="battleship.Ship"/>
 </qualifiedTypeNameHistroy>

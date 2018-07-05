@@ -1,15 +1,11 @@
 package liberry;
 import java.util.ArrayList;
-public class System 
+public class System implements addMember
 {
 	
 	private ArrayList<Member> memberList = new ArrayList<Member>();
 	private ArrayList<Item> itemList = new ArrayList<Item>();
 	
-	public boolean addMember(Member member) 
-	{
-	      return memberList.add(member);
-	}
 	
 	public boolean removeMember(Member member)
 	{
@@ -46,4 +42,9 @@ public class System
 		return itemList;
 	}
 
+	@Override
+	public boolean addMember(Member member) 
+	{
+		return memberList.add(member);
+	}
 }

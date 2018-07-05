@@ -12,7 +12,7 @@ import liberry.System;
 public class SystemTest 
 {
 
-	System system = null;
+	 System system = null;
 	 Book book =  null;
 	 NewsPaper newsPaper =  null;
 	 Book bookTwo = null;
