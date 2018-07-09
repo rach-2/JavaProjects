@@ -1,4 +1,4 @@
-package liberry;
+package com.qa.libeery;
 
 public class NewsPaper extends Item
 {

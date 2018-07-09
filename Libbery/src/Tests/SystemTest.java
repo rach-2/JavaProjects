@@ -6,7 +6,10 @@ import org.junit.Ignore;
 
 import liberry.*;
 import org.junit.Test;
-import liberry.System;
+
+import com.qa.libeery.Book;
+import com.qa.libeery.NewsPaper;
+import com.qa.libeery.System;
 
 
 public class SystemTest 

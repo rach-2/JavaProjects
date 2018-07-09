@@ -1,4 +1,4 @@
-package liberry;
+package com.qa.libeery;
 
 public abstract class Item {
 	

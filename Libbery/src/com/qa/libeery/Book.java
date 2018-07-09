@@ -1,4 +1,6 @@
-package liberry;
+package com.qa.libeery;
+
+import liberry.Item;
 
 public class Book  extends  Item
 {

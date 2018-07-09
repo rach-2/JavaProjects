@@ -1,11 +1,7 @@
 package Tests;
 
-import static org.junit.Assert.*;
-import org.junit.Before;
-import org.junit.Test;
-
-import liberry.Member;
-import liberry.System;
+import com.qa.libeery.Member;
+import com.qa.libeery.System;
 
 
 public class AndRemoveMembersTest 
