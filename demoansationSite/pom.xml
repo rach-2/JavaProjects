@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.qa</groupId>
-    <artifactId>DemoSite</artifactId>
+    <artifactId>demoansationSite</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependencies>
 
+    <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
@@ -17,22 +17,16 @@
             <scope>test</scope>
         </dependency>
 
-
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>3.11.0</version>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
-        </dependency>
 
 
-    </dependencies>S
+    </dependencies>
+
 
 
 </project>

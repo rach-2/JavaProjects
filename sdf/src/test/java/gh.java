@@ -9,11 +9,10 @@ public class gh {
     WebDriver driver;
 
     @Before
-    public void setUp(){
-
+    public void setUp()
+    {
         System.setProperty("webdriver.chrome.driver","C:\\Devolopment\\web-driver\\chromedriver.exe");
         driver = new ChromeDriver();
-
     }
     @Test
     public void methond(){
